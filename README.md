@@ -2,6 +2,8 @@
 
 A simple Bash script to prevent your Ubuntu laptop from suspending when the lid is closed.
 
+🔗 GitHub repository: [galtauba/fix-lid-behavior](https://github.com/galtauba/fix-lid-behavior)
+
 ## 🔧 Features
 
 - Disables suspend-on-lid-close behavior (even when docked or on battery)
@@ -17,10 +19,10 @@ A simple Bash script to prevent your Ubuntu laptop from suspending when the lid 
 
 ## 🚀 Usage
 
-1. Download or clone this repository:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fix-lid-behavior.git
+git clone https://github.com/galtauba/fix-lid-behavior.git
 cd fix-lid-behavior
 ```
 
@@ -52,7 +54,7 @@ HandleLidSwitchDocked=ignore
 HandleLidSwitchExternalPower=ignore
 ```
 
-It then restarts the `systemd-logind` service to apply changes.
+Then it restarts the `systemd-logind` service to apply the changes.
 
 ## ⚠️ Requirements
 
